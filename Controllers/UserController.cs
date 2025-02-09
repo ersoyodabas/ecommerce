@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using ecommerce.Models;
+using ecommerce.Models.View;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ecommerce.Controllers
@@ -18,7 +19,13 @@ namespace ecommerce.Controllers
             return View();
         }
 
+        [HttpGet]
         public IActionResult Register()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Register(UserViewModel model)
         {
             return View();
         }

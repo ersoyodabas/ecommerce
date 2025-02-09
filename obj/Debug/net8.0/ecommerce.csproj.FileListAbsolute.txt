@@ -32,3 +32,4 @@ C:\Users\Aylin\source\repos\ecommerce\obj\Debug\net8.0\ecommerce.pdb
 C:\Users\Aylin\source\repos\ecommerce\obj\Debug\net8.0\ecommerce.genruntimeconfig.cache
 C:\Users\Aylin\source\repos\ecommerce\obj\Debug\net8.0\ref\ecommerce.dll
 C:\Users\Aylin\source\repos\ecommerce\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Aylin\source\repos\ecommerce\obj\Debug\net8.0\ecommerce.sourcelink.json

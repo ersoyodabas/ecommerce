@@ -1,39 +1,38 @@
-
+@model ecommerce.Models.View.UserViewModel
 <div class="row mt-4">
     <div class="offset-4 col-4 ">
         <div class="login-card card p-3">
             <h3 class="text-center mb-3">Kayıt Ol</h3>
             <form method="post" action="@Url.Action("Register", "User")">
                 <div class="mb-3">
-                    <input type="text" class="form-control" name="name" placeholder="Ad" required>
-                </div>
-
-                
-                <div class="mb-3">
-                    <input type="text" class="form-control" name="surname" placeholder="Soyad" required>
+                    <input type="text" class="form-control" name="name" placeholder="Ad" required asp-for="name">
                 </div>
                 
                 <div class="mb-3">
-                    <input type="date" class="form-control" name="date" placeholder="Doğum Tarihi" required>
+                    <input type="text" class="form-control" name="surname" placeholder="Soyad" required asp-for="surname">
+                </div>
+                
+                <div class="mb-3">
+                    <input type="date" class="form-control" name="date" placeholder="Doğum Tarihi" required asp-for="date">
                 </div> 
                 <!-- Alan Kodu ve Telefon Numarası -->
                 <div class="mb-3 d-flex">
-                    <select class="form-select me-2" name="countryCode" style="max-width: 100px;">
+                    <select class="form-select me-2" name="phone_area" style="max-width: 100px;" asp-for="phone_area">
                         <option value="+90" selected>+90</option>
                         <option value="+1">+1</option>
                         <option value="+44">+44</option>
                         <option value="+49">+49</option>
                     </select>
-                    <input type="text" class="form-control" name="phoneNumber" placeholder="Telefon numaranız" required>
+                    <input type="text" class="form-control" name="phone_number" placeholder="Telefon No" required asp-for="phone_number">
                 </div>
                 <div class="mb-3">
-                    <input type="email" class="form-control" name="email" placeholder="E-posta" required>
+                    <input type="email" class="form-control" name="email" placeholder="E-posta" required asp-for="email">
                 </div>
                 <div class="mb-3">
-                    <input type="password" class="form-control" name="password" placeholder="Şifre" required>
+                    <input type="password" class="form-control" name="password" placeholder="Şifre" required asp-for="password">
                 </div>
                 <div class="mb-3">
-                    <input type="password" class="form-control" name="password" placeholder="Şifre (Tekrar)" required>
+                    <input type="password" class="form-control" name="password_confirm" placeholder="Şifre (Tekrar)" required asp-for="password_confirm">
                 </div>
                 <button type="submit" class="btn btn-primary w-100">Kayıt Ol</button>
             </form>
