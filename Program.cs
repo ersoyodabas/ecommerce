@@ -1,4 +1,17 @@
+using ecommerce.Models;
+using Microsoft.EntityFrameworkCore;
+using System;
+
 var builder = WebApplication.CreateBuilder(args);
+
+
+// Connection String'i appsettings.json'dan al ve PostgreSQL'e baðlan
+
+builder.Services.AddDbContext<EcommerceDbContext>(options =>
+
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

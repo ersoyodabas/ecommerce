@@ -27,6 +27,7 @@ namespace ecommerce.Controllers
         [HttpPost]
         public IActionResult Register(UserViewModel model)
         {
+            //controller içerisindeyken db contesti oluþturup veritabanýndan veri çkeip kaç adet olduðunu nasýl yazarým.
             return View();
         }
 
