@@ -1,0 +1,21 @@
+<div class="row mt-4">
+    <div class="offset-4 col-4 ">
+    <div class="login-card card p-3">
+    <h3 class="text-center mb-3">Giriş Yap</h3>
+
+    <form method="post" action="@Url.Action("Login", "User")">
+        <div class="mb-3">
+            <input type="email" class="form-control" name="email" placeholder="E-posta" required>
+        </div>
+        <div class="mb-3">
+            <input type="password" class="form-control" name="password" placeholder="Şifre" required>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Giriş Yap</button>
+    </form>
+    <div class="text-center mt-3">
+        <a href="@Url.Action("ForgotPassword", "User")" class="text-decoration-none">Şifremi Unuttum</a> |
+        <a href="@Url.Action("Register", "User")" class="text-decoration-none">Kayıt Ol</a>
+    </div>
+        </div>
+    </div>
+</div>
