@@ -9,7 +9,10 @@
         public DateTime date { get; set; }  
 
         public string phone_area { get; set; }
-        
+
+        public string gender { get; set; }
+
+
         public string phone_number { get; set; }
         
         public string email { get; set; }

@@ -11,10 +11,19 @@
                 <div class="mb-3">
                     <input type="text" class="form-control" name="surname" placeholder="Soyad" required asp-for="surname">
                 </div>
-                
+                <div class="mb-3">
+                    <select class="form-select" name="gender" asp-for="gender">
+                        <option value="select" selected>Cinsiyet </option>
+                        <option value="woman">Kadın</option>
+                        <option value="man">Erkek</option>
+
+                    </select>
+                </div>
+
                 <div class="mb-3">
                     <input type="date" class="form-control" name="date" placeholder="Doğum Tarihi" required asp-for="date">
-                </div> 
+                </div>
+                
                 <!-- Alan Kodu ve Telefon Numarası -->
                 <div class="mb-3 d-flex">
                     <select class="form-select me-2" name="phone_area" style="max-width: 100px;" asp-for="phone_area">
