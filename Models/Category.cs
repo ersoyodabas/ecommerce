@@ -3,29 +3,29 @@ using System.Collections.Generic;
 
 namespace ecommerce.Models;
 
-public partial class Category
+public partial class category
 {
-    public int CategoryId { get; set; }
+    public int category_id { get; set; }
 
-    public DateTime CreateDate { get; set; }
+    public DateTime create_date { get; set; }
 
-    public DateTime UpdateDate { get; set; }
+    public DateTime update_date { get; set; }
 
-    public int? Electronic { get; set; }
+    public int? electronic { get; set; }
 
-    public int? HomeLifeStationaryOffice { get; set; }
+    public int? home_life_stationary_office { get; set; }
 
-    public int? GardenAutoaccessory { get; set; }
+    public int? garden_autoaccessory { get; set; }
 
-    public int? MotherBabyToy { get; set; }
+    public int? mother_baby_toy { get; set; }
 
-    public int? SportOutdoor { get; set; }
+    public int? sport_outdoor { get; set; }
 
-    public int? PersonalCare { get; set; }
+    public int? personal_care { get; set; }
 
-    public int? SupermarketPetshop { get; set; }
+    public int? supermarket_petshop { get; set; }
 
-    public int? BookMusicFilmHobby { get; set; }
+    public int? book_music_film_hobby { get; set; }
 
-    public int? Fashion { get; set; }
+    public int? fashion { get; set; }
 }

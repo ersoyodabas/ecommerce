@@ -3,27 +3,27 @@ using System.Collections.Generic;
 
 namespace ecommerce.Models;
 
-public partial class Order
+public partial class order
 {
-    public int OrderId { get; set; }
+    public int order_id { get; set; }
 
-    public int UserId { get; set; }
+    public int user_id { get; set; }
 
-    public decimal TotalAmount { get; set; }
+    public decimal total_amount { get; set; }
 
-    public string PaymentStatus { get; set; } = null!;
+    public string payment_status { get; set; } = null!;
 
-    public DateTime OrderDate { get; set; }
+    public DateTime order_date { get; set; }
 
-    public string DeliveryAdress { get; set; } = null!;
+    public string delivery_adress { get; set; } = null!;
 
-    public string OrderStatus { get; set; } = null!;
+    public string order_status { get; set; } = null!;
 
-    public DateTime PaymentDate { get; set; }
+    public DateTime payment_date { get; set; }
 
-    public DateTime UploadDate { get; set; }
+    public DateTime upload_date { get; set; }
 
-    public DateTime CreateDate { get; set; }
+    public DateTime create_date { get; set; }
 
-    public DateTime UpdateDate { get; set; }
+    public DateTime update_date { get; set; }
 }

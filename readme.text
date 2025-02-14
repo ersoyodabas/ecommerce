@@ -1,2 +1,2 @@
 ﻿aşağıdaki kod veritabanı scaffold kodudur.
-dotnet ef dbcontext scaffold "Server=AYLIN;Database=ecommerce;Trusted_Connection=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models -c EcommerceDbContext --force
+dotnet ef dbcontext scaffold "Server=AYLIN;Database=ecommerce;Trusted_Connection=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models -c EcommerceDbContext --force --use-database-names

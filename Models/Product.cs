@@ -3,21 +3,31 @@ using System.Collections.Generic;
 
 namespace ecommerce.Models;
 
-public partial class Product
+public partial class product
 {
-    public int Id { get; set; }
+    public int id { get; set; }
 
-    public string Name { get; set; } = null!;
+    public string name { get; set; } = null!;
 
-    public string Description { get; set; } = null!;
+    public string description { get; set; } = null!;
 
-    public decimal Price { get; set; }
+    public decimal price { get; set; }
 
-    public int CategoryId { get; set; }
+    public string? image_url { get; set; }
 
-    public int TrademarkId { get; set; }
+    public int category_id { get; set; }
 
-    public DateTime CreateDate { get; set; }
+    public int stock_quantity { get; set; }
 
-    public DateTime? UpdateDate { get; set; }
+    public string? color { get; set; }
+
+    public string? size { get; set; }
+
+    public string? sku { get; set; }
+
+    public decimal? rating { get; set; }
+
+    public DateTime create_date { get; set; }
+
+    public DateTime? update_date { get; set; }
 }

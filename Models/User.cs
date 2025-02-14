@@ -3,25 +3,25 @@ using System.Collections.Generic;
 
 namespace ecommerce.Models;
 
-public partial class User
+public partial class user
 {
-    public long Id { get; set; }
+    public long id { get; set; }
 
-    public DateTime CreateTime { get; set; }
+    public DateTime create_time { get; set; }
 
-    public string Name { get; set; } = null!;
+    public string name { get; set; } = null!;
 
-    public string Surname { get; set; } = null!;
+    public string surname { get; set; } = null!;
 
-    public string Gender { get; set; } = null!;
+    public string gender { get; set; } = null!;
 
-    public string? Tckn { get; set; }
+    public string? tckn { get; set; }
 
-    public string? Vkn { get; set; }
+    public string? vkn { get; set; }
 
-    public string PhoneArea { get; set; } = null!;
+    public string phone_area { get; set; } = null!;
 
-    public string PhoneNumber { get; set; } = null!;
+    public string phone_number { get; set; } = null!;
 
-    public DateTime? UpdateDate { get; set; }
+    public DateTime? update_date { get; set; }
 }

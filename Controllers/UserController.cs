@@ -34,21 +34,21 @@ namespace ecommerce.Controllers
             if (ModelState.IsValid)
             {
                 // Kullanýcý sayýsýný asenkron olarak veritabanýndan çek
-                int userCount = await _context.Users.CountAsync();
+                int userCount = await _context.users.CountAsync();
                 _logger.LogInformation($"Toplam Kullanýcý Sayýsý: {userCount}");
 
                 // Yeni kullanýcýyý oluþtur
-                var newUser = new User
+                var newUser = new user
                 {
-                    Name = model.name,
-                    Surname = model.surname,
-                    PhoneArea = model.phone_area,
-                    PhoneNumber = model.phone_number,
-                    Gender = model.gender,
+                    name = model.name,
+                    surname = model.surname,
+                    phone_area = model.phone_area,
+                    phone_number = model.phone_number,
+                    gender = model.gender,
                 };
 
                 // Veritabanýna ekleyip kaydet (asenkron)
-                _context.Users.Add(newUser);
+                _context.users.Add(newUser);
                 await _context.SaveChangesAsync();
 
                 return RedirectToAction("Index");
