@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Aylin\\source\\repos\\ecommerce\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7C712747-B217-4C78-8212-E5C9617CFBDD}|ecommerce.csproj|c:\\users\\aylin\\source\\repos\\ecommerce\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7C712747-B217-4C78-8212-E5C9617CFBDD}|ecommerce.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CDC13566-9B46-4138-998B-1C6BB3FEB718}|..\\test\\test.csproj|c:\\users\\aylin\\source\\repos\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,6 +38,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aylin\\source\\repos\\ecommerce\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Aylin\\source\\repos\\ecommerce\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAIwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T10:55:32.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Aylin\\source\\repos\\test\\Program.cs",
               "RelativeDocumentMoniker": "..\\test\\Program.cs",
@@ -46,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ProductViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Aylin\\source\\repos\\ecommerce\\Models\\View\\ProductViewModel.cs",
               "RelativeDocumentMoniker": "Models\\View\\ProductViewModel.cs",
@@ -58,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Save.cshtml",
               "DocumentMoniker": "C:\\Users\\Aylin\\source\\repos\\ecommerce\\Views\\Product\\Save.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Save.cshtml",
@@ -70,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Aylin\\source\\repos\\ecommerce\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
@@ -82,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Aylin\\source\\repos\\ecommerce\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
@@ -90,8 +107,7 @@
               "RelativeToolTip": "Controllers\\ProductController.cs",
               "ViewState": "AgIAAFYAAAAAAAAAAAArwF4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T00:29:41.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T00:29:41.211Z"
             }
           ]
         }
