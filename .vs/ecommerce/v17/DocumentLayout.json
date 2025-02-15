@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\Aylin\\source\\repos\\ecommerce\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CDC13566-9B46-4138-998B-1C6BB3FEB718}|..\\test\\test.csproj|c:\\users\\aylin\\source\\repos\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7C712747-B217-4C78-8212-E5C9617CFBDD}|ecommerce.csproj|c:\\users\\aylin\\source\\repos\\ecommerce\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C712747-B217-4C78-8212-E5C9617CFBDD}|ecommerce.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,11 +29,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aylin\\source\\repos\\test\\Program.cs",
+              "RelativeDocumentMoniker": "..\\test\\Program.cs",
+              "ToolTip": "C:\\Users\\Aylin\\source\\repos\\test\\Program.cs",
+              "RelativeToolTip": "..\\test\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T10:50:18.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ProductViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Aylin\\source\\repos\\ecommerce\\Models\\View\\ProductViewModel.cs",
               "RelativeDocumentMoniker": "Models\\View\\ProductViewModel.cs",
@@ -38,12 +54,11 @@
               "RelativeToolTip": "Models\\View\\ProductViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T09:33:42.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T09:33:42.8Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Save.cshtml",
               "DocumentMoniker": "C:\\Users\\Aylin\\source\\repos\\ecommerce\\Views\\Product\\Save.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Save.cshtml",
@@ -51,12 +66,11 @@
               "RelativeToolTip": "Views\\Product\\Save.cshtml",
               "ViewState": "AgIAACQAAAAAAAAAAAAAADIAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-15T09:21:41.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T09:21:41.733Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Aylin\\source\\repos\\ecommerce\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
@@ -64,18 +78,17 @@
               "RelativeToolTip": "Views\\Product\\Index.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-15T09:11:08.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T09:11:08.306Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Aylin\\source\\repos\\ecommerce\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\Aylin\\source\\repos\\ecommerce\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAArwGQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAArwF4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-15T00:29:41.211Z",
               "EditorCaption": ""
