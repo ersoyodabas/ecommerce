@@ -1,2 +1,3 @@
 ﻿aşağıdaki kod veritabanı scaffold kodudur.
+veritabanındaki bilgilerin en güncel halinin buraya klonlanması işlemine diyoruz.
 dotnet ef dbcontext scaffold "Server=AYLIN;Database=ecommerce;Trusted_Connection=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models -c EcommerceDbContext --force --use-database-names

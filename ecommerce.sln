@@ -5,7 +5,7 @@ VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecommerce", "ecommerce.csproj", "{7C712747-B217-4C78-8212-E5C9617CFBDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "console\test.csproj", "{D954E454-CE39-4808-88B4-C521410E2DF9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBYS", "..\OBYSConsole\OBYS\OBYS.csproj", "{A9ABBA29-1825-FAFE-39D8-0B7637387217}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +17,15 @@ Global
 		{7C712747-B217-4C78-8212-E5C9617CFBDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C712747-B217-4C78-8212-E5C9617CFBDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C712747-B217-4C78-8212-E5C9617CFBDD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D954E454-CE39-4808-88B4-C521410E2DF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D954E454-CE39-4808-88B4-C521410E2DF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D954E454-CE39-4808-88B4-C521410E2DF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D954E454-CE39-4808-88B4-C521410E2DF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9ABBA29-1825-FAFE-39D8-0B7637387217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9ABBA29-1825-FAFE-39D8-0B7637387217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9ABBA29-1825-FAFE-39D8-0B7637387217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9ABBA29-1825-FAFE-39D8-0B7637387217}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {009FC6B5-AE7F-4D6A-8732-BEEC47C42CF6}
 	EndGlobalSection
 EndGlobal

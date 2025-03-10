@@ -21,7 +21,7 @@
                 </div>
 
                 <div class="mb-3">
-                    <input type="date" class="form-control" name="date" placeholder="Doğum Tarihi" required asp-for="date">
+                    <input type="date" class="form-control" name="birth_date" placeholder="Doğum Tarihi" required asp-for="birth_date">
                 </div>
                 
                 <!-- Alan Kodu ve Telefon Numarası -->
@@ -44,6 +44,11 @@
                     <input type="password" class="form-control" name="password_confirm" placeholder="Şifre (Tekrar)" required asp-for="password_confirm">
                 </div>
                 <button type="submit" class="btn btn-primary w-100">Kayıt Ol</button>
+                @if (ViewBag.ErrorMessage != null)
+                {
+                    <div class="alert alert-danger">@ViewBag.ErrorMessage</div>
+
+                }
             </form>
             <div class="text-center mt-3">
                 <a href="@Url.Action("Login", "User")" class="text-decoration-none">Giriş Yap</a>

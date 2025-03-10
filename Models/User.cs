@@ -24,4 +24,10 @@ public partial class user
     public string phone_number { get; set; } = null!;
 
     public DateTime? update_date { get; set; }
+
+    public string email { get; set; } = null!;
+
+    public string password { get; set; } = null!;
+
+    public DateTime birth_date { get; set; }
 }

@@ -61,7 +61,9 @@ public partial class EcommerceDbContext : DbContext
             entity.ToTable("product");
 
             entity.Property(e => e.color).HasMaxLength(50);
-            entity.Property(e => e.create_date).HasColumnType("datetime");
+            entity.Property(e => e.create_date)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime");
             entity.Property(e => e.image_url).HasMaxLength(500);
             entity.Property(e => e.name).HasMaxLength(250);
             entity.Property(e => e.price).HasColumnType("decimal(10, 2)");
@@ -79,12 +81,14 @@ public partial class EcommerceDbContext : DbContext
 
             entity.ToTable("user");
 
-            entity.Property(e => e.create_time).HasColumnType("datetime");
-            entity.Property(e => e.gender)
-                .HasMaxLength(1)
-                .IsUnicode(false)
-                .IsFixedLength();
+            entity.Property(e => e.birth_date).HasColumnType("datetime");
+            entity.Property(e => e.create_time)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime");
+            entity.Property(e => e.email).HasMaxLength(100);
+            entity.Property(e => e.gender).HasMaxLength(10);
             entity.Property(e => e.name).HasMaxLength(100);
+            entity.Property(e => e.password).HasMaxLength(200);
             entity.Property(e => e.phone_area).HasMaxLength(5);
             entity.Property(e => e.phone_number).HasMaxLength(10);
             entity.Property(e => e.surname).HasMaxLength(100);
