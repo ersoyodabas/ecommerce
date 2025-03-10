@@ -398,3 +398,4 @@ C:\projeler\ecommerce\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.S
 C:\projeler\ecommerce\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\projeler\ecommerce\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\projeler\ecommerce\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\projeler\ecommerce\bin\Debug\net8.0\bundleconfig.json

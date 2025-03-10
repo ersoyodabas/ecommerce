@@ -1,13 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Authorization;
+﻿// Areas/Admin/Controllers/HomeController.cs
+using Microsoft.AspNetCore.Mvc;
 
-namespace MyProject.Areas.Admin.Controllers
+[Area("Admin")]
+public class HomeController : Controller
 {
-    public class HomeController : Controller
+    public IActionResult Index()
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
+        return View();
     }
 }
