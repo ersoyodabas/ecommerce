@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using ecommerce.Areas.Admin.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace ecommerce.Models;
@@ -20,6 +21,8 @@ public partial class EcommerceDbContext : DbContext
     public virtual DbSet<order> orders { get; set; }
 
     public virtual DbSet<product> products { get; set; }
+
+    public virtual DbSet<product_category> product_categories { get; set; }
 
     public virtual DbSet<user> users { get; set; }
 
@@ -72,6 +75,21 @@ public partial class EcommerceDbContext : DbContext
                 .HasColumnType("decimal(3, 2)");
             entity.Property(e => e.size).HasMaxLength(50);
             entity.Property(e => e.sku).HasMaxLength(50);
+            entity.Property(e => e.update_date).HasColumnType("datetime");
+        });
+
+        modelBuilder.Entity<product_category>(entity =>
+        {
+            entity.HasKey(e => e.id).HasName("PK_productCategory");
+
+            entity.ToTable("product_category");
+
+            entity.Property(e => e.create_date).HasColumnType("datetime");
+            entity.Property(e => e.description).HasMaxLength(200);
+            entity.Property(e => e.name)
+                .HasMaxLength(50)
+                .IsUnicode(false);
+            entity.Property(e => e.price).HasColumnType("decimal(10, 2)");
             entity.Property(e => e.update_date).HasColumnType("datetime");
         });
 
